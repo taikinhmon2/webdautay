@@ -1,0 +1,135 @@
+/* mobile and tablet */
+@media (max-width:1023px) {
+    #nav .subnav a{
+        padding: 5px 16px;
+        line-height: 38px;
+    }
+    .address .add .buyticket {
+        padding: 15px 16px;
+    }
+    #footer .listnet {
+        font-size: 48px;
+    } 
+    #footer .listnet a {
+       margin: 0 8px;
+    }
+    #footer .textfooter {
+        font-size: 30px;
+    }
+    .textfooter a {
+        padding: 12px 0;
+        display: inline-block;
+    }
+   
+}
+@media (max-width:1023px) and (min-width:741px) {
+    #CONTACT .form {
+        padding: 13px 0;
+    }
+    #CONTACT .send {
+        width: 100%;
+        padding:15px 16px;
+    }
+    #CONTACT .infor {
+        line-height:3 ;
+    }
+}
+
+
+/* mobile */
+@media (max-width: 740px) {
+    #nav {
+        display:block;
+    }
+    #nav li{
+        display: block;
+    }
+    #nav>li:first-child{
+        display: inline-block;
+    }
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+    #nav .subnav {
+        padding-left: 34px;
+    }
+    #nav .subnav a {
+        color:#fff;
+    }
+    #header {
+        overflow: hidden;
+    }
+    #header .chisearch {
+        display: none;
+    }
+    #header .menu {
+        display: block;
+    }
+    #content .member1 {
+        width: 100%;
+        padding: 16px 0;
+    }
+    #content .member1 .img {
+        width: 70%;
+    }
+    .address .add {
+        width: 100%;
+        padding: 16px 8px;
+    }
+    .address .add .buyticket {
+        width: 100%;
+    }
+    .modal-container  {
+        position: absolute;
+        top: 46px;
+        width: 300px;
+        height: 250px;
+    }
+    /* giảm modal trên điện thoại */
+   .modal-header {
+        height: 30px;
+        font-size: 15px;
+    }
+    .modal-body {
+        padding: 5px 16px;
+    }
+    input.modal-input {
+        margin-bottom: 5px;
+    }
+    #buy-modal {
+        margin-bottom: 0px;
+        padding: 5px;
+    }
+     .need {
+        margin: 5px 0;
+    }
+
+
+/* kết thúc giảm modal trên điện thoại */
+    #CONTACT .infor {  
+        width: 100%;
+        padding-bottom: 32px;
+        padding-left: 50px;
+        line-height: 2;
+    }
+   #CONTACT .setmobile {
+       width: 100%;
+
+   } 
+   #CONTACT .pdr {
+    padding-right: 0px;
+    width: 100%;
+}
+#CONTACT .pdl {
+    padding: 16px 0px 8px 0px;
+
+    width: 100%;
+}
+#CONTACT .send {
+    width: 100%;
+    padding:15px;
+}
+
+
+}
