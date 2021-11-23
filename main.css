@@ -108,7 +108,7 @@
 /* bắt đầu phàn slider */
  #slider {
      margin-top: 46px;
-     background:url('/img/slider1.jpg') top center /cover no-repeat;
+     background:url('./img/slider1.jpg') top center /cover no-repeat;
      padding-top:50%;
      position: relative;
  }
@@ -453,5 +453,4 @@ input.buyticket.send {
 }
 .textfooter a {
     color: rgba(0,0,0,0.6);
-}
 }
